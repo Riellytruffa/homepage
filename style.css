@@ -1,13 +1,9 @@
-<head>
-  <title>Rielly Truffa</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-
-</head>
 
 body {
     margin: 0;
     margin-top: 50px;
     font-family: sans-serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
 header {
@@ -18,12 +14,13 @@ header {
     right: 0;
     height: 50px;
     line-height: 50px;
-    background-color: #eee;
+    background-color: #8cba51;
 }
 
 header * {
     display: inline;
     height: 50px;
+    background-color: #8cba51;
 }
 
 header ul {
@@ -32,6 +29,7 @@ header ul {
 
 header li {
     margin-left: 20px;
+    text-decoration: underline;
 }
 
 section {
@@ -41,16 +39,19 @@ section {
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-family: "Times New Roman", Times, serif;
 
-    background-size: cover; /* Add this line */
-    background-position: center center; /* Add this line */
-    background-repeat: no-repeat; /* Add this line */
-    background-attachment: fixed; /* Add this line */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #8cba51;
 }
 
 #hero .profile-img {
     width: 300px;
     border-radius: 50%;
+
 }
 
 footer {
@@ -59,32 +60,97 @@ footer {
 }
 
 #hero h1 {
+  background-color: #8cba51;
     font-size: 3em;
+    font-family: "Times New Roman", Times, serif;
 }
 
 section h2 {
+    text-decoration: underline;
     font-size: 2.5em;
+    font-family: "Times New Roman", Times, serif;
 }
 
 section h3 {
-    font-size: 1.5em;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2em;
+    text-decoration: underline;
+}
+p{
+  font-size: 40px
+}
+p.standout {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+}
+li {
+  font-size: 40px;
+  }
+#contact h2{
+  font-family: "Times New Roman", Times, serif;
+}
+#contact p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+}
+#contact li {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+}
+#contact a {
+  text-decoration-color: #8cba51
+}
+#contact .FB {
+  width: 50px;
+  border-radius: 50%;
+
+}
+#contact .IG {
+  width: 50px;
+  border-radius: 50%;
+
+}
+#contact .LINK {
+  width: 50px;
+  border-radius: 50%;
+
+}
+section h2 ul{
+  font-size: 60px;
 }
 
 header a {
+    background-color: #8cba51;
     text-decoration: none;
     color: black;
 }
 
-/* Add everything below here */
+footer {
+  background-color: #8cba51;
+}
 
 #hero {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://www.pointpark.edu/Photos_1280x720/Academic-Village-at-Dusk_Koehler_1280x720.jpg');
 }
 
-#about {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://www.pointpark.edu/Photos_1280x720/Academic-Village-at-Dusk_Koehler_1280x720.jpg');
+#interest {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://abound.college/mba/wp-content/uploads/sites/4/2019/03/point-park-university-1.jpg');
 }
 
 #contact {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://www.pointpark.edu/Photos_1280x720/Academic-Village-at-Dusk_Koehler_1280x720.jpg');
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('http://d21gd0ap5v1ndt.cloudfront.net/web01/img.php?src=/images/2018-19/naia_scholar_teams_2017-18.jpg&site=pointp&width=1140&height=641&crop');
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8cba51;
+  border-radius: 10px;
 }
