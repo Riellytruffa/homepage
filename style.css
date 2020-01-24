@@ -1,45 +1,58 @@
-.dropbtn {
-  background-color: #8cba51;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
+.topnav {
+  background-color: #7e0cf5;
+  overflow: hidden;
 }
-
-.dropbtn:hover, .dropbtn:focus {
-  background-color: #8cba51;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  display: block;
+  font-size: 17px;
 }
-
-.dropdown-content a:hover {background-color: #ddd}
-
-.show {display:block;}
+.topnav a:hover {
+  background-color: #7e0cf5
+  color: black;
+}
+.topnav a.active {
+  background-color: #9b45e4;
+  color: white;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
 body {
     margin: 0;
     margin-top: 50px;
     font-family: sans-serif;
     font-family: "Times New Roman", Times, serif;
+}
+li{
+  list-style-type: none;
+  margin: 0 2vw;
+  font-size: 3vh;
+}
+a {
+  text-decoration: none;
+  color: black;
+  padding: 1vw;
+  font-family: monospace;
+}
+a:hover{
+  background-color: #fa697c;
+}
+@media only screen and (max-width: 500px) {
+  ul{
+    flex-direction: column;
+  }
+  li{
+    margin: 0;
+  }
+ a{
+    display: block;
+  }
 }
 
 header {
@@ -50,13 +63,13 @@ header {
     right: 0;
     height: 50px;
     line-height: 50px;
-    background-color: #8cba51;
+    background-color: #e13a9d;
 }
 
 header * {
     display: inline;
     height: 50px;
-    background-color: #8cba51;
+    background-color: #7e0cf5;
 }
 
 header ul {
@@ -81,7 +94,7 @@ section {
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: #8cba51;
+    background-color: #e13a9d;
 }
 
 #hero .profile-img {
@@ -92,11 +105,10 @@ section {
 
 footer {
     text-align: center;
-    padding: 50px;
+    padding: 25px;
 }
 
 #hero h1 {
-  background-color: #8cba51;
     font-size: 3em;
     font-family: "Times New Roman", Times, serif;
 }
@@ -134,7 +146,7 @@ li {
   font-size: 40px;
 }
 #contact a {
-  text-decoration-color: #8cba51
+  text-decoration-color: #7e0cf5
 }
 #contact .FB {
   width: 50px;
@@ -156,25 +168,29 @@ section h2 ul{
 }
 
 header a {
-    background-color: #8cba51;
+    background-color: #7e0cf5;
     text-decoration: none;
     color: black;
 }
 
 footer {
-  background-color: #8cba51;
+  background-color: #7e0cf5;
 }
 
 #hero {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://www.pointpark.edu/Photos_1280x720/Academic-Village-at-Dusk_Koehler_1280x720.jpg');
+    background-image: linear-gradient(rgba(125,255,255,0.55),rgba(125,255,255,0.55)), url('https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/44197057_2142504259107695_5051374679650992128_o.jpg?_nc_cat=107&_nc_ohc=ExQ3i4K-pjUAX_ReBC7&_nc_ht=scontent-iad3-1.xx&oh=d606fcb835d2fea477aea3360a418c6d&oe=5EC782A3');
 }
 
 #interest {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://abound.college/mba/wp-content/uploads/sites/4/2019/03/point-park-university-1.jpg');
+    background-image: linear-gradient(rgba(125,255,255,0.55),rgba(125,255,255,0.55)), url('https://scontent.fphl2-1.fna.fbcdn.net/v/t1.0-9/44143609_713699578989939_1361414107806302208_o.jpg?_nc_cat=103&_nc_ohc=ioCsvai7eT8AX9qCdTt&_nc_ht=scontent.fphl2-1.fna&oh=ffa5a9567128f9dfbe383f5397b9b4e5&oe=5ED9BD4C');
 }
 
 #contact {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('http://d21gd0ap5v1ndt.cloudfront.net/web01/img.php?src=/images/2018-19/naia_scholar_teams_2017-18.jpg&site=pointp&width=1140&height=641&crop');
+    background-image: linear-gradient(rgba(125,255,255,0.55),rgba(125,255,255,0.55)), url('https://scontent.fphl2-1.fna.fbcdn.net/v/t1.0-9/44169714_714784608881436_8601197658402455552_o.jpg?_nc_cat=109&_nc_ohc=QvRhddVkeTYAX8OwoNB&_nc_ht=scontent.fphl2-1.fna&oh=adac9fcc78b7842173c691fffe6c70fc&oe=5EC8620F');
+}
+
+#music {
+  background-image: linear-gradient(rgba(125,255,255,0.55),rgba(125,255,255,0.55)), url('https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/p960x960/35955133_621781858181712_5292488006140166144_o.jpg?_nc_cat=106&_nc_ohc=YubnXLmMaBwAX8XP-9J&_nc_ht=scontent-iad3-1.xx&_nc_tp=6&oh=22c9f9f88a8c73cee75f968db43918c0&oe=5E93B31D');
 }
 
 ::-webkit-scrollbar {
@@ -184,9 +200,10 @@ footer {
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px grey;
   border-radius: 10px;
+  background: #1089ff
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #8cba51;
+  background: #8105d8;
   border-radius: 10px;
 }
