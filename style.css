@@ -54,6 +54,9 @@ a:hover{
     display: block;
   }
 }
+.class {
+	font-family: Futura,Trebuchet MS,Arial,sans-serif;
+}
 
 header {
     display: flex;
@@ -110,7 +113,8 @@ footer {
 
 #hero h1 {
     font-size: 3em;
-    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    color: #35013f;
 }
 
 section h2 {
@@ -126,6 +130,7 @@ section h3 {
 }
 p{
   font-size: 40px
+
 }
 p.standout {
   font-family: "Times New Roman", Times, serif;
@@ -133,24 +138,47 @@ p.standout {
 }
 li {
   font-size: 40px;
+  color: #35013f;
   }
-#contact h2{
-  font-family: "Times New Roman", Times, serif;
+#interest h5{
+  font-style: italic;
+  font-size: 60px;
+  color: #35013f;
+}
+#interest h1{
+  font-style: italic;
+  font-size: 60px;
+  color: #35013f;
+}
+#interest p{
+  font-style: italic;
+}
+#interest li{
+  font-style: italic;
+}
+#contact h1{
+  font-style: italic;
+  font-size: 60px;
+  color: #35013f;
 }
 #contact p {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 40px;
+ font-style: italic;
+  font-size: 50px
+  color: #35013f;
 }
 #contact li {
-  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
   font-size: 40px;
+  color: #35013f;
 }
 #contact a {
+  font-style: italic;
   text-decoration-color: #7e0cf5
 }
 #contact .FB {
   width: 50px;
   border-radius: 50%;
+  color: #35013f;
 
 }
 #contact .IG {
@@ -162,6 +190,11 @@ li {
   width: 50px;
   border-radius: 50%;
 
+}
+#contact p{
+  font-style: italic;
+  color: #35013f;
+  font-size: 50px;
 }
 section h2 ul{
   font-size: 60px;
@@ -175,6 +208,11 @@ header a {
 
 footer {
   background-color: #7e0cf5;
+}
+#music h1{
+  font-size: 60px;
+  font-style: italic;
+  color: #35013f;
 }
 
 #hero {
